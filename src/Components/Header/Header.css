@@ -21,7 +21,7 @@
 } */
 
 .navbar {
-  background: rgba(0, 0, 0, 0.3);
+  background-color: white;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -48,7 +48,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: white;
 }
 
 .nav-logo {
@@ -75,7 +76,8 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: black;
+
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
@@ -91,7 +93,7 @@
 }
 
 .nav-item.active {
-  color: #ffdd40;
+  color: black;
   border: 1px solid #ffdd40;
 }
 
@@ -113,14 +115,14 @@
   }
 
   .nav-menu.active {
-    background: rgba(0, 0, 0, 0.9);
+    background: white;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
   }
   .nav-item .active {
-    color: #ffdd40;
+    color: black;
     border: none;
   }
   .nav-links {
@@ -137,6 +139,6 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: white;
+    color: black;
   }
 }
