@@ -2,7 +2,6 @@ import React from "react";
 import "./HeroSection.css";
 import OurServices from "../OurServices/OurServices";
 import OurReach from "../OurReach/OurReach";
-import Clients from "../ClientsSection/Clients";
 import SpecializedSector from "../SpecializedSectors/SpecializedSector";
 import WhyUs from "../WhyUs/WhyUs";
 import { NavLink } from "react-router-dom";
@@ -14,7 +13,7 @@ const HersoSection = () => {
         <div className="hero-section">
           <div className="hero-content">
             <div className="hero-left">
-              <h1 className="hero-primary-text">Recruit Junction</h1>
+              <h1 className="hero-primary-text">AVI IT Services</h1>
               <p className="hero-secondry-text">
                 Envision, Execute, Lead.
                 <br />
@@ -39,8 +38,8 @@ const HersoSection = () => {
             <h1 className="aboutus-primary-text">About Us</h1>
 
             <h3 className="aboutus-secondry-text">
-              Founded in 2022, Recruit Junction Private Limited is a fast
-              growing company in recruitment industry. Our focus is always on
+              Founded in 2022, AVI IT Services Private Limited is a fast growing
+              company in recruitment industry. Our focus is always on
               innovative, measurable and value-added recruitment solutions to
               maximize client returns through our unique state-of-the-art
               recruitment model.
@@ -69,7 +68,7 @@ const HersoSection = () => {
 
       <OurReach />
 
-      <Clients />
+      {/* <Clients /> */}
 
       <WhyUs />
       <SpecializedSector />

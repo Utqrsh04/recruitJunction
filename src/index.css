@@ -6,6 +6,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  NavLink {
+    text-decoration: none;
+  }
 }
 
 *,
@@ -15,4 +19,3 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
