@@ -1,0 +1,143 @@
+.ourservices-section {
+  background-color: #1e2020;
+  min-height: 80vh;
+  padding-bottom: 100px;
+}
+
+.ourservices-section h1 {
+  text-align: center;
+  padding-top: 5%;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 38px;
+  color: white;
+  margin-top: 0;
+}
+
+.ourservices-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 200px;
+}
+
+.ourservices-row2 {
+  padding: 10px 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row2box {
+  flex: 1;
+  text-align: center;
+  padding: 25px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.service {
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  /* background-color: #fff; */
+  color: black;
+  min-width: 300px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+.service-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.service i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.service h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.row2box i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #303ef7;
+}
+
+.row2box h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.service:hover {
+  box-shadow: 0 0 10px rgba(119, 119, 119, 0.2);
+}
+
+.row2box:hover {
+  box-shadow: 0 0 10px rgba(119, 119, 119, 0.2);
+}
+
+.cssanimation,
+.cssanimation span {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.cssanimation span {
+  display: inline-block;
+}
+
+.fadeInBottom {
+  animation-name: fadeInBottom;
+}
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ourservices-section {
+    width: 100%;
+  }
+  .ourservices-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .ourservices-row2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .row2box {
+    margin-bottom: 20px;
+  }
+}

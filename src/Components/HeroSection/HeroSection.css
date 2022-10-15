@@ -1,0 +1,174 @@
+#hero1 {
+  background: url("../../Herobg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.hero,
+.content {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.hero-section {
+  min-height: 800px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.7) repeat;
+}
+
+.hero-content {
+  position: absolute;
+  top: 45%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;
+  color: #fff;
+}
+
+.hero-primary-text {
+  margin: 0px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 38px;
+  padding: 0px 20px;
+}
+
+.hero-secondry-text {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  padding: 0px 300px;
+  /* background-color: aquamarine; */
+}
+
+.upload-cv-btn-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+.upload-cv-btn {
+  min-width: 150px;
+  min-height: 50px;
+  background-color: #2c8fcd;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.about-us-section {
+  min-height: 80vh;
+  margin: auto;
+  width: 100%;
+  /* background-color: aquamarine; */
+  padding: 100px 200px;
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.aboutus-primary-text {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.aboutus-secondry-text {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.aboutus-left {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.aboutus-right {
+  flex: 1;
+}
+
+.aboutus-image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutus-image {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutus-btn-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+
+.read-more-btn {
+  min-width: 150px;
+  min-height: 50px;
+  background-color: #2c8fcd;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .hero-secondry-text {
+    padding: 0px 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-us-section {
+    /* background-color: burlywood; */
+    padding: 10px;
+    text-align: left;
+  }
+  .about-us {
+    flex-direction: column;
+    /* background-color: blueviolet; */
+  }
+
+  .aboutus-left {
+    padding: 0px 20px;
+    margin-right: auto;
+  }
+
+  .hero-secondry-text {
+    padding: 0px 30px;
+  }
+  .aboutus-right {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutus-btn-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
