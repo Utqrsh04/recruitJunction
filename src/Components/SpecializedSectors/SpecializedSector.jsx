@@ -95,7 +95,7 @@ const SpecializedSector = () => {
                     ></path>
                   </svg>
                 </div>
-                <h2>ConsumerProducts</h2>
+                <h2>Consumer Products</h2>
               </div>
               <div
                 class={`service ${
@@ -117,7 +117,7 @@ const SpecializedSector = () => {
                     ></path>
                   </svg>
                 </div>
-                <h2>Healthcare& Lifesciences</h2>
+                <h2>Healthcare & Lifesciences</h2>
               </div>
               <div
                 class={`service ${

@@ -24,9 +24,7 @@ const OurServices = () => {
           {({ isVisible }) => (
             <div class="ourservices-row">
               <div
-                class={`service ${
-                  isVisible ? " cssanimation fadeInBottom sequence" : ""
-                }`}
+                class={`service ${  isVisible ? " cssanimation fadeInBottom sequence" : ""  }`}
               >
                 <div className="service-image">
                   <svg
