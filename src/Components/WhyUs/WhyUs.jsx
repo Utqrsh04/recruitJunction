@@ -9,11 +9,11 @@ const WhyUs = () => {
           <h1 className="whyus-primary-text">Why US</h1>
 
           <h3 className="whyus-secondry-text">
-            We lead with a commitment to quality and integrity across the
-            Recruit Junction, bringing a passion for client success and a
-            purpose to serve and improve the communities in which firms operate.
-            In a world where rapid change and unprecedented disruption are the
-            new normal, we inspire confidence and empower change in all we do.
+            We lead with a commitment to quality and integrity across the AVI IT
+            Services, bringing a passion for client success and a purpose to
+            serve and improve the communities in which firms operate. In a world
+            where rapid change and unprecedented disruption are the new normal,
+            we inspire confidence and empower change in all we do.
           </h3>
         </div>
 
